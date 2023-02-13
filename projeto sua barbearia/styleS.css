@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+
+
+  body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(72deg,rgb(0, 0, 0) 1%, rgb(170, 167, 167) 99%);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;    
+}
+.logo{
+    color: white;
+    font-size: 29px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-family: 'Rye', cursive;
+    display: inline-block;
+    position: relative;
+}
+span{
+    color: rgb(236, 61, 38);
+    font-family: 'Rye', cursive;
+
+}
+nav ul li {
+    list-style-type:none;
+    display: inline-block;
+    padding: 30px 30px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: bold;
+    text-transform: capitalize;
+    font-family: 'Rye', cursive;
+}
+nav ul li a:hover{
+    background-color: rgb(97, 83, 83);
+    color:rgb(233, 140, 140);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.login{
+    background-color: rgb(84, 85, 90);
+    color:rgb(219, 79, 79);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+    font-family: 'Rye', cursive;
+}
+.login:hover{
+    transform: scale(1.2);
+}
+.nextArrow{
+
+    position: absolute;
+    top: 50%;
+    right: 1%;
+    transform: translateY(-50%);
+  
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+  
+    background-color: #00000075;
+  
+    cursor: pointer;
+    z-index: 9;
+    transition: all .4s ease;
+  
+  }
+  .nextArrow svg{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    stroke: rgb(255, 255, 255) !important;
+  }
+  .baner{
+    top: 300px;
+    left: 400px;
+    height: 40px;
+    width: 5000px;
+}
+.apresentar{
+    color: rgb(233, 161, 161);
+    font-size: 19px;
+    letter-spacing: 3px;
+    cursor: pointer;
+    font-family: 'Rye', cursive;
+    display: inline-block;
+    position:absolute;
+    top: 160px;
+    left: 240px;
+    height: 40px;
+    width: 5000px;
+    
+}
